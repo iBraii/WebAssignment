@@ -1,0 +1,22 @@
+.main-text {
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.content img {
+    margin: 0 25%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .content img {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .main-text {
+        margin: 40px 0;
+        font-size: 14px;
+    }
+}

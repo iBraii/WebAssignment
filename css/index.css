@@ -1,0 +1,32 @@
+#intro {
+    background-image: url(../media/ottawa-morning.jpg);
+    min-height: 1000px;
+    background-size: cover;
+    color: #f2f2f2;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: unset;
+}
+
+#newsletter {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    #intro {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #emailInput {
+        width: 80%;
+    }
+}

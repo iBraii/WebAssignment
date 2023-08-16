@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="icon" type="image/x-icon" href="../media/icon-white.png">
+    <title>Reviews</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../media/icon.png" alt="logo" title="logo" class="logo-image">
+                </a>
+                <a href="index.html" class="logo-title">Discovering Ontario</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="info.html" class="nav-link">Trip information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="reviews.html" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <h2 class="second-heading" id="yourReviews">Your reviews</h2>
+        <div class="card-container">
+            <!-- Reviews will be added here -->
+        </div>
+        <section class="content form">
+            <form id="review">
+                <label for="addReview" class="second-heading">Add your review:</label>
+                <div class="container">
+                    <label for="name">Write your name:</label><br>
+                    <input type="text" id="name-input"><br><br>
+                </div>
+                <div class="container">
+                    <label for="name">Your rating (1 to 5):</label><br>
+                    <input type="number" id="rating-input"><br><br>
+                </div>
+                <div class="container">
+                    <label for="name">Write your review:</label><br>
+                    <textarea type="text" id="content-input" cols="30" rows="5"></textarea><br><br>
+                </div>
+                <button class="formBtn" type="submit">Create</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="rights">
+            <label>&copy; 2023 Jose Adrian Blume La Torre</label>
+        </div>
+    </footer>
+
+    <script src="../js/data.js"></script>
+    <script src="../js/reviews.js"></script>
+</body>
+</html>
