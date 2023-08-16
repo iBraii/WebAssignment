@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
     /*stars.classList.add("stars");*/
 
     const emptyStar = document.createElement("img");
-    emptyStar.src = "../media/e-star.png"
+    emptyStar.src = "e-star.png"
 
     const fullStar = document.createElement("img");
-    fullStar.src = "../media/f-star.png"
+    fullStar.src = "f-star.png"
 
     const content = document.createElement("p");
     content.textContent = review.content;
