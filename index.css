@@ -1,5 +1,5 @@
 #intro {
-    background-image: url(ottawa-morning.jpg);
+    background-image: "ottawa-morning.jpg";
     min-height: 1000px;
     background-size: cover;
     color: #f2f2f2;
